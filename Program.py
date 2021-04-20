@@ -17,3 +17,10 @@ def emphasise(txt):
 "Reversible Inclusive List Ranges"
 def reversible_inclusive_list(s, e):
     	return list(range(s, e+1)) or list(range(s, e-1, -1))
+
+
+print(invert({ "z": "q", "w": "f" }))
+print(format_date("11/12/2019"))
+print(expensive_orders({ "a": 3000, "b": 200, "c": 1050 }, 1000))
+print(emphasise("hello world"))
+print(reversible_inclusive_list(1, 5))
