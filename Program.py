@@ -1,3 +1,4 @@
+
 "Invert Keys and Values"
 def invert(d):
 	return {v: k for k, v in d.items()}
@@ -17,7 +18,7 @@ def emphasise(txt):
 "Reversible Inclusive List Ranges"
 def reversible_inclusive_list(s, e):
     	return list(range(s, e+1)) or list(range(s, e-1, -1))
-
+		
 
 print(invert({ "z": "q", "w": "f" }))
 print(format_date("11/12/2019"))
